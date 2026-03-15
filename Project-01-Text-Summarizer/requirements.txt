@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+streamlit
+requests
+python-multipart
+numpy==1.23.5
