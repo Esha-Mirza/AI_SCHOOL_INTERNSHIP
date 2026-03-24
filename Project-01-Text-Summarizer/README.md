@@ -1,41 +1,17 @@
-# 📝 Project 1: Text Summarizer
+# LLaMA Text Summarizer
 
-## 🎯 Project Overview
-This project is a text summarization application that uses LLaMA 2 (via Ollama) to generate concise summaries of input text.
+This project is a simple AI application that uses a locally hosted LLaMA model (via Ollama) to summarize text.
 
-## 🏗️ Architecture
-- **Backend**: FastAPI server that communicates with LLaMA
-- **Frontend**: Streamlit web interface
-- **AI Model**: LLaMA 2 running locally via Ollama
+## Features
+- FastAPI backend
+- Streamlit frontend
+- Local LLaMA inference using Ollama
 
-## 📋 Prerequisites
-- Python 3.8+
-- Ollama installed
-- Git
-
-## 🔧 Installation
-[Instructions will be added]
-
-## 🚀 Running the Application
-[Instructions will be added]
-
-## 📁 Project Structure
-
-Project-01-Text-Summarizer/
-├── README.md
-├── requirements.txt
-├── backend/
-│ └── main.py
-└── frontend/
-└── app.py
-
-## ✨ Features
-- Clean web interface
-- Real-time text summarization
-- Local AI model (no API costs)
-
-## 🛠️ Technologies Used
-- LLaMA 2 (via Ollama)
-- FastAPI
-- Streamlit
-- Python
+## Setup Instructions
+1. Clone the repository
+2. Install dependencies:
+   pip install -r requirements.txt
+3. Start backend:
+   uvicorn backend.main:app --reload
+4. Start frontend:
+   streamlit run frontend/app.py
